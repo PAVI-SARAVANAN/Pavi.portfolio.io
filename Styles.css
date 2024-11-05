@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    display: grid;
+}
+header{
+    background-color: #263548;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column: 1/-1;
+}
+.contact{
+    list-style-type: none;
+    color: #fff;
+    margin:0px;
+    padding: 0px;
+}
+.contact h3{
+    font-size: 2em;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.3rem;
+}
+.right img{
+    border-radius:  80px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+}
+aside{
+    background-color: #515D6B;
+    color: #fff;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+aside h3{
+    color:#D45163;
+}
+.skills li p{
+    padding-left: 0.7rem;
+}
+article h3{
+    color:#D45163;
+}
+.experience h4{
+    margin: 0px;
+}
+.experience p{
+    margin: 0px;
+    color: #666;
+}
+.exp{
+    list-style-type: disc;
+}
+.education  h4, p{
+    margin: 0px;
+}
+.projects h4,p{
+    margin: 0px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #de99a2;
+}
+.Link{
+    color:#000;
+}
